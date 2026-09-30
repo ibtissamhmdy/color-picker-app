@@ -22,7 +22,7 @@ function ColorPicker(){
           value={color}
           onChange={handleColorChange}
         />
-      
+      <input type="range" name="blur" min="0" max="25" data-sizing="px"></input>
     </div>
   );
 }
