@@ -18,7 +18,7 @@ h1{
 }
 .color-display{
   width: 300px;
-  height: 300px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,4 +43,8 @@ input[type="color"]{
   padding: 5px;
   border-radius: 10px;
   border: 3px solid hsl(0, 0%, 80%);
+}
+img{
+  background: white;
+  width: 300px;
 }
